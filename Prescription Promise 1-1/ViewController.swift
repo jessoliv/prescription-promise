@@ -12,9 +12,12 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
 	}
 
-
+	@IBAction func donateButtonPressed(_ sender: UIButton) {
+	}
+	@IBAction func recieveButtonPressed(_ sender: UIButton) {
+	}
+	
 }
 
