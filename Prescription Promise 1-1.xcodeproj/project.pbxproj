@@ -15,6 +15,7 @@
 		06AE059D221F717600AC5B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AE059B221F717600AC5B24 /* Main.storyboard */; };
 		06AE059F221F717700AC5B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06AE059E221F717700AC5B24 /* Assets.xcassets */; };
 		06AE05A2221F717700AC5B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AE05A0221F717700AC5B24 /* LaunchScreen.storyboard */; };
+		06E60DA4223A89B1004D2CE1 /* DonatePrescripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E60DA3223A89B1004D2CE1 /* DonatePrescripViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		06AE059E221F717700AC5B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06AE05A1221F717700AC5B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06AE05A3221F717700AC5B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E60DA3223A89B1004D2CE1 /* DonatePrescripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonatePrescripViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				0657D388223628A2003F2086 /* AboutViewController.swift */,
 				0657D38A223628E0003F2086 /* DonatePersInfoViewController.swift */,
 				0657D38C2236294D003F2086 /* DonateInsuranceInfoViewController.swift */,
+				06E60DA3223A89B1004D2CE1 /* DonatePrescripViewController.swift */,
 				06AE0599221F717600AC5B24 /* ViewController.swift */,
 				06AE059B221F717600AC5B24 /* Main.storyboard */,
 				06AE059E221F717700AC5B24 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0657D389223628A2003F2086 /* AboutViewController.swift in Sources */,
+				06E60DA4223A89B1004D2CE1 /* DonatePrescripViewController.swift in Sources */,
 				0657D38B223628E0003F2086 /* DonatePersInfoViewController.swift in Sources */,
 				06AE059A221F717600AC5B24 /* ViewController.swift in Sources */,
 				06AE0598221F717600AC5B24 /* AppDelegate.swift in Sources */,
