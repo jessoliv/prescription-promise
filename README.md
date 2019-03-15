@@ -7,7 +7,7 @@ Implement AWS Storage
 https://docs.aws.amazon.com/sdk-for-ios/index.html#lang/en_us
 
 Implement AWS MFA
-https://searchaws.techtarget.com/definition/AWS-Multi-Factor-Authentication-AWS-MFA
+https://aws.amazon.com/iam/details/mfa/
 
 Implement Signature
 https://cocoapods.org/pods/SignatureView
