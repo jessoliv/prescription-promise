@@ -1,8 +1,5 @@
 To Do:
 
-Implement New PhotoPicker
-https://cocoapods.org/pods/ImagePicker
-
 Implement Local Authentication
 https://developer.apple.com/documentation/localauthentication/logging_a_user_into_your_app_with_face_id_or_touch_id
 
