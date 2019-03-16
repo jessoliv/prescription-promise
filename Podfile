@@ -8,5 +8,9 @@ target 'Prescription Promise 1-1' do
   # Pods for Prescription Promise 1-1
   pod 'AWSCore'
   pod 'SignatureView'
+  pod 'Firebase/Core'
+  pod 'FirebaseUI'
+  pod 'GoogleSignIn'
+  pod 'AWSAppSync'
 
 end

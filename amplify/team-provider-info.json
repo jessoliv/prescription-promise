@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "awscloudformation": {
+            "AuthRoleName": "prescriptionpromise-20190316105929-authRole",
+            "UnauthRoleArn": "arn:aws:iam::195117135936:role/prescriptionpromise-20190316105929-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::195117135936:role/prescriptionpromise-20190316105929-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "prescriptionpromise-20190316105929-deployment",
+            "UnauthRoleName": "prescriptionpromise-20190316105929-unauthRole",
+            "StackName": "prescriptionpromise-20190316105929",
+            "StackId": "arn:aws:cloudformation:us-east-1:195117135936:stack/prescriptionpromise-20190316105929/196c7620-47fc-11e9-8736-12ccfe651680"
+        }
+    }
+}
