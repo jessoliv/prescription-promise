@@ -1,0 +1,20 @@
+PODS:
+  - AWSCore (2.6.33)
+  - SignatureView (1.1.0)
+
+DEPENDENCIES:
+  - AWSCore
+  - SignatureView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSCore
+    - SignatureView
+
+SPEC CHECKSUMS:
+  AWSCore: ed83f7e36fb6c0211b04a439d8e564aa23bfe37d
+  SignatureView: 23bb085add66110062decbfa899ed93d111b76e5
+
+PODFILE CHECKSUM: 6b79658d1d6b0976e4d5ac9bb37cdff0b908f418
+
+COCOAPODS: 1.5.3

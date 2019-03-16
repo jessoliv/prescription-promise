@@ -17,9 +17,11 @@
 		06AE05A2221F717700AC5B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AE05A0221F717700AC5B24 /* LaunchScreen.storyboard */; };
 		06E0B59F223AA36E00D15322 /* InsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E0B59E223AA36E00D15322 /* InsuranceViewController.swift */; };
 		06E60DA4223A89B1004D2CE1 /* DonatePrescripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E60DA3223A89B1004D2CE1 /* DonatePrescripViewController.swift */; };
+		9FDD6F1BA323982306287125 /* Pods_Prescription_Promise_1_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA3991ADFBD89B7561ECA84 /* Pods_Prescription_Promise_1_1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0481C066A274965576BD13EE /* Pods-Prescription Promise 1-1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prescription Promise 1-1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Prescription Promise 1-1/Pods-Prescription Promise 1-1.debug.xcconfig"; sourceTree = "<group>"; };
 		0657D388223628A2003F2086 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		0657D38A223628E0003F2086 /* DonatePersInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonatePersInfoViewController.swift; sourceTree = "<group>"; };
 		0657D38C2236294D003F2086 /* DonateInsuranceInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateInsuranceInfoViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +34,8 @@
 		06AE05A3221F717700AC5B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06E0B59E223AA36E00D15322 /* InsuranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceViewController.swift; sourceTree = "<group>"; };
 		06E60DA3223A89B1004D2CE1 /* DonatePrescripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonatePrescripViewController.swift; sourceTree = "<group>"; };
+		7607BF0B68745B11677D3A51 /* Pods-Prescription Promise 1-1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prescription Promise 1-1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Prescription Promise 1-1/Pods-Prescription Promise 1-1.release.xcconfig"; sourceTree = "<group>"; };
+		ACA3991ADFBD89B7561ECA84 /* Pods_Prescription_Promise_1_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prescription_Promise_1_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FDD6F1BA323982306287125 /* Pods_Prescription_Promise_1_1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +55,8 @@
 			children = (
 				06AE0596221F717600AC5B24 /* Prescription Promise 1-1 */,
 				06AE0595221F717600AC5B24 /* Products */,
+				1E82139EE512DA35271EBDCB /* Pods */,
+				68DEBEE0E8007F915D68B7BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +86,23 @@
 			path = "Prescription Promise 1-1";
 			sourceTree = "<group>";
 		};
+		1E82139EE512DA35271EBDCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0481C066A274965576BD13EE /* Pods-Prescription Promise 1-1.debug.xcconfig */,
+				7607BF0B68745B11677D3A51 /* Pods-Prescription Promise 1-1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68DEBEE0E8007F915D68B7BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACA3991ADFBD89B7561ECA84 /* Pods_Prescription_Promise_1_1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06AE05A6221F717700AC5B24 /* Build configuration list for PBXNativeTarget "Prescription Promise 1-1" */;
 			buildPhases = (
+				17F185B19D97654D58068852 /* [CP] Check Pods Manifest.lock */,
 				06AE0590221F717600AC5B24 /* Sources */,
 				06AE0591221F717600AC5B24 /* Frameworks */,
 				06AE0592221F717600AC5B24 /* Resources */,
+				BCEE977B00438185F362EEBA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,6 +170,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17F185B19D97654D58068852 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prescription Promise 1-1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCEE977B00438185F362EEBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Prescription Promise 1-1/Pods-Prescription Promise 1-1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/SignatureView/SignatureView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SignatureView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Prescription Promise 1-1/Pods-Prescription Promise 1-1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		06AE0590221F717600AC5B24 /* Sources */ = {
@@ -300,6 +375,7 @@
 		};
 		06AE05A7221F717700AC5B24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0481C066A274965576BD13EE /* Pods-Prescription Promise 1-1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -318,6 +394,7 @@
 		};
 		06AE05A8221F717700AC5B24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7607BF0B68745B11677D3A51 /* Pods-Prescription Promise 1-1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
