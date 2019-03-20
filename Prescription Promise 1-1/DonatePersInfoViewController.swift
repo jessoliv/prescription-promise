@@ -10,21 +10,45 @@ import UIKit
 
 class DonatePersInfoViewController: UIViewController {
 
-    override func viewDidLoad() {
+	@IBOutlet weak var firstNameText: UITextField!
+	@IBOutlet weak var lastNameText: UITextField!
+	
+	@IBOutlet weak var birthdateText: UITextField!
+	
+	@IBOutlet weak var addressText: UITextField!
+	
+	@IBOutlet weak var cityText: UITextField!
+	
+	@IBOutlet weak var stateText: UITextField!
+	
+	@IBOutlet weak var zipcodeText: UITextField!
+	
+	override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+	
+	@IBAction func unwindFromViewController(segue: UIStoryboardSegue) {
+		let source = segue.source as! DonatePersInfoViewController
+	}
+	@IBAction func firstNameTextChanged(_ sender: UITextField) {
+	}
+	
+	@IBAction func lastNameText(_ sender: UITextField) {
+	}
+	
+	@IBAction func birthdateText(_ sender: UITextField) {
+	}
+	
+	@IBAction func addressText(_ sender: UITextField) {
+	}
+	@IBAction func cityText(_ sender: UITextField) {
+	}
+	
+	@IBAction func stateText(_ sender: UITextField) {
+	}
+	
+	@IBAction func zipcodeText(_ sender: UITextField) {
+	}
+	
 }

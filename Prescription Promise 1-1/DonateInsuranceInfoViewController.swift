@@ -93,4 +93,16 @@ class DonateInsuranceInfoViewController: UIViewController, UIImagePickerControll
 		present(imagePickerBack, animated: true, completion: nil)
 	}
 	
+	@IBAction func providerTextChanged(_ sender: UITextField) {
+	}
+	
+	@IBAction func idNumberChanged(_ sender: UITextField) {
+	}
+	
+	@IBAction func groupNumberChanged(_ sender: UITextField) {
+	}
+	
+	
+	
+	
 }

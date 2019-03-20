@@ -16,8 +16,31 @@ class ViewController: UIViewController {
 
 	@IBAction func donateButtonPressed(_ sender: UIButton) {
 	}
+	
 	@IBAction func recieveButtonPressed(_ sender: UIButton) {
 	}
+	
+	@IBAction func faqButtonPressed(_ sender: UIButton) {
+	}
+	
+	@IBAction func personalButtonPressed(_ sender: UIButton) {
+	}
+	
+	@IBAction func messagesButtonPressed(_ sender: UIButton) {
+	}
+	
+	@IBAction func insuranceButtonPressed(_ sender: UIButton) {
+	}
+	
+	@IBAction func billingButtonPressed(_ sender: UIButton) {
+	}
+	
+	@IBAction func waiverButtonPressed(_ sender: UIButton) {
+	}
+	
+	@IBAction func rulesButtonPressed(_ sender: UIButton) {
+	}
+	
 	
 }
 
