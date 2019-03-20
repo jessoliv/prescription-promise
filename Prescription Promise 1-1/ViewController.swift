@@ -41,6 +41,8 @@ class ViewController: UIViewController {
 	@IBAction func rulesButtonPressed(_ sender: UIButton) {
 	}
 	
+	@IBAction func takebackButtonPressed(_ sender: UIButton) {
+	}
 	
 }
 

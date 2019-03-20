@@ -17,6 +17,7 @@
 		06AE05A2221F717700AC5B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AE05A0221F717700AC5B24 /* LaunchScreen.storyboard */; };
 		06E0B59F223AA36E00D15322 /* InsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E0B59E223AA36E00D15322 /* InsuranceViewController.swift */; };
 		06E60DA4223A89B1004D2CE1 /* DonatePrescripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E60DA3223A89B1004D2CE1 /* DonatePrescripViewController.swift */; };
+		06EDA6D52242A4CC00D3FF4E /* SelectInsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EDA6D42242A4CC00D3FF4E /* SelectInsuranceViewController.swift */; };
 		986D60D1223D564D00074ACB /* AWS Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986D60D0223D564D00074ACB /* AWS Functions.swift */; };
 		9FDD6F1BA323982306287125 /* Pods_Prescription_Promise_1_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA3991ADFBD89B7561ECA84 /* Pods_Prescription_Promise_1_1.framework */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,7 @@
 		06AE05A3221F717700AC5B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06E0B59E223AA36E00D15322 /* InsuranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceViewController.swift; sourceTree = "<group>"; };
 		06E60DA3223A89B1004D2CE1 /* DonatePrescripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonatePrescripViewController.swift; sourceTree = "<group>"; };
+		06EDA6D42242A4CC00D3FF4E /* SelectInsuranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectInsuranceViewController.swift; sourceTree = "<group>"; };
 		7607BF0B68745B11677D3A51 /* Pods-Prescription Promise 1-1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prescription Promise 1-1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Prescription Promise 1-1/Pods-Prescription Promise 1-1.release.xcconfig"; sourceTree = "<group>"; };
 		986D60D0223D564D00074ACB /* AWS Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AWS Functions.swift"; sourceTree = "<group>"; };
 		ACA3991ADFBD89B7561ECA84 /* Pods_Prescription_Promise_1_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prescription_Promise_1_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,7 @@
 				986D60D0223D564D00074ACB /* AWS Functions.swift */,
 				0657D388223628A2003F2086 /* AboutViewController.swift */,
 				0657D38A223628E0003F2086 /* DonatePersInfoViewController.swift */,
+				06EDA6D42242A4CC00D3FF4E /* SelectInsuranceViewController.swift */,
 				0657D38C2236294D003F2086 /* DonateInsuranceInfoViewController.swift */,
 				06E60DA3223A89B1004D2CE1 /* DonatePrescripViewController.swift */,
 				06E0B59E223AA36E00D15322 /* InsuranceViewController.swift */,
@@ -307,6 +310,7 @@
 				06E60DA4223A89B1004D2CE1 /* DonatePrescripViewController.swift in Sources */,
 				986D60D1223D564D00074ACB /* AWS Functions.swift in Sources */,
 				0657D38B223628E0003F2086 /* DonatePersInfoViewController.swift in Sources */,
+				06EDA6D52242A4CC00D3FF4E /* SelectInsuranceViewController.swift in Sources */,
 				06E0B59F223AA36E00D15322 /* InsuranceViewController.swift in Sources */,
 				06AE059A221F717600AC5B24 /* ViewController.swift in Sources */,
 				06AE0598221F717600AC5B24 /* AppDelegate.swift in Sources */,
