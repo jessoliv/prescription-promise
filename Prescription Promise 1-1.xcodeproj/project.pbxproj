@@ -10,6 +10,9 @@
 		0657D389223628A2003F2086 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0657D388223628A2003F2086 /* AboutViewController.swift */; };
 		0657D38B223628E0003F2086 /* DonatePersInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0657D38A223628E0003F2086 /* DonatePersInfoViewController.swift */; };
 		0657D38D2236294D003F2086 /* DonateInsuranceInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0657D38C2236294D003F2086 /* DonateInsuranceInfoViewController.swift */; };
+		06A834102243CCA300FFCDF7 /* DrugTakebackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A8340F2243CCA300FFCDF7 /* DrugTakebackViewController.swift */; };
+		06A834122243D1CB00FFCDF7 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A834112243D1CB00FFCDF7 /* Spot.swift */; };
+		06A834142243DB9E00FFCDF7 /* RecieveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A834132243DB9E00FFCDF7 /* RecieveViewController.swift */; };
 		06AE0598221F717600AC5B24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE0597221F717600AC5B24 /* AppDelegate.swift */; };
 		06AE059A221F717600AC5B24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE0599221F717600AC5B24 /* ViewController.swift */; };
 		06AE059D221F717600AC5B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AE059B221F717600AC5B24 /* Main.storyboard */; };
@@ -27,6 +30,9 @@
 		0657D388223628A2003F2086 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		0657D38A223628E0003F2086 /* DonatePersInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonatePersInfoViewController.swift; sourceTree = "<group>"; };
 		0657D38C2236294D003F2086 /* DonateInsuranceInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateInsuranceInfoViewController.swift; sourceTree = "<group>"; };
+		06A8340F2243CCA300FFCDF7 /* DrugTakebackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugTakebackViewController.swift; sourceTree = "<group>"; };
+		06A834112243D1CB00FFCDF7 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		06A834132243DB9E00FFCDF7 /* RecieveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieveViewController.swift; sourceTree = "<group>"; };
 		06AE0594221F717600AC5B24 /* Prescription Promise 1-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prescription Promise 1-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AE0597221F717600AC5B24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06AE0599221F717600AC5B24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,12 +83,15 @@
 			children = (
 				06AE0597221F717600AC5B24 /* AppDelegate.swift */,
 				986D60D0223D564D00074ACB /* AWS Functions.swift */,
+				06A834112243D1CB00FFCDF7 /* Spot.swift */,
 				0657D388223628A2003F2086 /* AboutViewController.swift */,
 				0657D38A223628E0003F2086 /* DonatePersInfoViewController.swift */,
 				06EDA6D42242A4CC00D3FF4E /* SelectInsuranceViewController.swift */,
 				0657D38C2236294D003F2086 /* DonateInsuranceInfoViewController.swift */,
 				06E60DA3223A89B1004D2CE1 /* DonatePrescripViewController.swift */,
 				06E0B59E223AA36E00D15322 /* InsuranceViewController.swift */,
+				06A834132243DB9E00FFCDF7 /* RecieveViewController.swift */,
+				06A8340F2243CCA300FFCDF7 /* DrugTakebackViewController.swift */,
 				06AE0599221F717600AC5B24 /* ViewController.swift */,
 				06AE059B221F717600AC5B24 /* Main.storyboard */,
 				06AE059E221F717700AC5B24 /* Assets.xcassets */,
@@ -314,6 +323,9 @@
 				06E0B59F223AA36E00D15322 /* InsuranceViewController.swift in Sources */,
 				06AE059A221F717600AC5B24 /* ViewController.swift in Sources */,
 				06AE0598221F717600AC5B24 /* AppDelegate.swift in Sources */,
+				06A834142243DB9E00FFCDF7 /* RecieveViewController.swift in Sources */,
+				06A834122243D1CB00FFCDF7 /* Spot.swift in Sources */,
+				06A834102243CCA300FFCDF7 /* DrugTakebackViewController.swift in Sources */,
 				0657D38D2236294D003F2086 /* DonateInsuranceInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
