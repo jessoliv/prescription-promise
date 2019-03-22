@@ -6,11 +6,12 @@ target 'Prescription Promise 1-1' do
   use_frameworks!
 
   # Pods for Prescription Promise 1-1
-  pod 'AWSCore'
+  pod 'AWSCore', ' ~> 2.8.0'
   pod 'SignatureView'
   pod 'Firebase/Core'
   pod 'FirebaseUI'
   pod 'GoogleSignIn'
-  pod 'AWSAppSync'
+  pod 'AWSAppSync', ' ~> 2.10.0'
+  pod 'Stripe'
 
 end

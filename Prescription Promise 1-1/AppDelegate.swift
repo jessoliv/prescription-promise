@@ -23,9 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let cacheConfiguration = try AWSAppSyncCacheConfiguration()
             
             // AppSync configuration & client initialization
-            let appSyncServiceConfig = try AWSAppSyncServiceConfig()
-            let appSyncConfig = try AWSAppSyncClientConfiguration(appSyncServiceConfig: appSyncServiceConfig,
-                                                                  cacheConfiguration: cacheConfiguration)
+            let appSyncConfig = try AWSAppSyncClientConfiguration(appSyncServiceConfig: AWSAppSyncServiceConfig(), cacheConfiguration: cacheConfiguration)
             appSyncClient = try AWSAppSyncClient(appSyncConfig: appSyncConfig)
         } catch {
             print("Error initializing appsync client. \(error)")

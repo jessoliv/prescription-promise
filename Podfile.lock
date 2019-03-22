@@ -1,9 +1,9 @@
 PODS:
-  - AWSAppSync (2.6.23):
-    - AWSCore (~> 2.6.6)
-    - ReachabilitySwift (~> 4.0.0)
-    - SQLite.swift (= 0.11.4)
-  - AWSCore (2.6.33)
+  - AWSAppSync (2.10.2):
+    - AWSCore (~> 2.8.0)
+    - ReachabilitySwift (~> 4.3.0)
+    - SQLite.swift (= 0.11.5)
+  - AWSCore (2.8.4)
   - Bolts (1.9.0):
     - Bolts/AppLinks (= 1.9.0)
     - Bolts/Tasks (= 1.9.0)
@@ -177,25 +177,27 @@ PODS:
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - Protobuf (3.7.0)
-  - ReachabilitySwift (4.0.0)
+  - ReachabilitySwift (4.3.0)
   - SDWebImage (4.4.6):
     - SDWebImage/Core (= 4.4.6)
   - SDWebImage/Core (4.4.6)
   - SignatureView (1.1.0)
-  - SQLite.swift (0.11.4):
-    - SQLite.swift/standard (= 0.11.4)
-  - SQLite.swift/standard (0.11.4)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - Stripe (14.0.0)
   - TwitterCore (3.2.0)
   - TwitterKit (3.4.2):
     - TwitterCore (>= 3.2.0)
 
 DEPENDENCIES:
-  - AWSAppSync
-  - AWSCore
+  - AWSAppSync (~> 2.10.0)
+  - AWSCore (~> 2.8.0)
   - Firebase/Core
   - FirebaseUI
   - GoogleSignIn
   - SignatureView
+  - Stripe
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -229,12 +231,13 @@ SPEC REPOS:
     - SDWebImage
     - SignatureView
     - SQLite.swift
+    - Stripe
     - TwitterCore
     - TwitterKit
 
 SPEC CHECKSUMS:
-  AWSAppSync: 6ff14e36d3476f861996aac7a45f51cf1bdf7371
-  AWSCore: ed83f7e36fb6c0211b04a439d8e564aa23bfe37d
+  AWSAppSync: 791a9916d06df4eb682e1265ebc57eb083832d6b
+  AWSCore: 734b0d67c2c77f6edae9e5520431a37310ea4193
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   BoringSSL-GRPC: 2a230d9cd93e7ce39916044f645cebb31f37dde6
   FBSDKCoreKit: 974810fe3806173f3777c68062fa8ed6fa59b59d
@@ -259,13 +262,14 @@ SPEC CHECKSUMS:
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: 7a877b7f3e5964e3fce995e2eb323dbc6831bb5a
-  ReachabilitySwift: e67b2cab4d5386053673d8a7421b5981e5f08259
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   SignatureView: 23bb085add66110062decbfa899ed93d111b76e5
-  SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  Stripe: db29ad197c74aca6fb981e4e8355cf7ebd0fca5a
   TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
   TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
 
-PODFILE CHECKSUM: c0efa9a85dd798cbb3e83ce5945b5876fb70d584
+PODFILE CHECKSUM: b6d28e6add9824761085cba74b8064f85171edbf
 
 COCOAPODS: 1.5.3
