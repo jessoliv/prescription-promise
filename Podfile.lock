@@ -196,7 +196,7 @@ DEPENDENCIES:
   - Firebase/Core
   - FirebaseUI
   - GoogleSignIn
-  - SignatureView
+  - SignatureView (~> 1.1)
   - Stripe
 
 SPEC REPOS:
@@ -270,6 +270,6 @@ SPEC CHECKSUMS:
   TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
   TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
 
-PODFILE CHECKSUM: b6d28e6add9824761085cba74b8064f85171edbf
+PODFILE CHECKSUM: 4c16340eff476e3b6898d5be8f41810f42862cd9
 
 COCOAPODS: 1.5.3

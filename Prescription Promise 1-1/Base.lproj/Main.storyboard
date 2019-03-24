@@ -49,7 +49,7 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="waiver-icon" translatesAutoresizingMaskIntoConstraints="NO" id="3Qe-wY-z95">
-                                <rect key="frame" x="151" y="232" width="112" height="110"/>
+                                <rect key="frame" x="151" y="232" width="113" height="110"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rules-icon" translatesAutoresizingMaskIntoConstraints="NO" id="xNe-FM-lFG">
                                 <rect key="frame" x="281" y="232" width="113" height="110"/>
@@ -89,7 +89,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0J5-ss-S60" userLabel="messages-button">
-                                <rect key="frame" x="151" y="105" width="112" height="110"/>
+                                <rect key="frame" x="151" y="105" width="113" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="110" id="GX3-zl-Q3t"/>
                                     <constraint firstAttribute="width" constant="113" id="prK-Os-E6w"/>
@@ -116,7 +116,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzP-No-Gah" userLabel="waiver-button">
-                                <rect key="frame" x="151" y="232" width="112" height="110"/>
+                                <rect key="frame" x="151" y="232" width="113" height="110"/>
                                 <connections>
                                     <action selector="waiverButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rM9-9w-yjE"/>
                                     <segue destination="Wqp-Wa-cNy" kind="show" identifier="ShowWaiver" id="Xnb-J2-FIZ"/>
@@ -150,7 +150,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="prescription-promise" translatesAutoresizingMaskIntoConstraints="NO" id="RbZ-TP-NtJ">
-                                <rect key="frame" x="79" y="531" width="256" height="110"/>
+                                <rect key="frame" x="79" y="531" width="257" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="110" id="ioD-ah-tq7"/>
                                 </constraints>
@@ -159,7 +159,7 @@
                                 <rect key="frame" x="151" y="358" width="113" height="110"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJJ-bc-GUm" userLabel="takeback-button">
-                                <rect key="frame" x="151" y="358" width="112" height="109"/>
+                                <rect key="frame" x="151" y="358" width="113" height="109"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="109" id="M69-2R-kS7"/>
                                     <constraint firstAttribute="width" constant="113" id="qjv-na-aCp"/>
@@ -1503,14 +1503,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eoS-U0-sL5">
-                                <rect key="frame" x="0.0" y="99" width="414" height="496"/>
+                                <rect key="frame" x="0.0" y="99" width="414" height="360"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">I certify that the medications or medical supplies listed on this app were stored as recommended by the manufacturer and have not been tampered with. 
+                                <string key="text">I certify that the medications or medical supplies listed on this app were stored as recommended by the manufacturer and have not been tampered with. 
 
 Completion of this form meets the requirements of New Hampshire Statutes chapter 318 section 58 for Donating, Accepting, and Redispensing Unused Drugs.
 
-*Drugs and biological products for which the Federal Food and Drug Administration (FDA) requires a Risk Evaluation and Mitigation Strategy (REMS) with an element to assure safe use and an implementation system, and such drugs and biological products as determined by the pharmacist in charge, shall not be accepted or distributed under the provisions of the program. No control substances will be accepted. Any medication that does not meet the New Hampshire Unused Prescription Drug Program standards will be properly destroyed.</mutableString>
+*Drugs and biological products for which the Federal Food and Drug Administration (FDA) requires a Risk Evaluation and Mitigation Strategy (REMS) with an element to assure safe use and an implementation system, and such drugs and biological products as determined by the pharmacist in charge, shall not be accepted or distributed under the provisions of the program. No control substances will be accepted. Any medication that does not meet the New Hampshire Unused Prescription Drug Program standards will be properly destroyed.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1531,7 +1531,7 @@ Completion of this form meets the requirements of New Hampshire Statutes chapter
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WDP-yn-3H1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="927.536231884058" y="-381.02678571428572"/>
+            <point key="canvasLocation" x="191" y="-411"/>
         </scene>
         <!--About View Controller-->
         <scene sceneID="Hzb-8D-D9k">
