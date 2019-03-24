@@ -50,6 +50,11 @@ class DonatePersInfoViewController: UIViewController {
 	}
 	
 	@IBAction func zipcodeText(_ sender: UITextField) {
+		func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {
+			let newText = (textView.text as NSString).replacingCharacters(in: range, with: text)
+			let numberOfChars = newText.count
+			return numberOfChars < 7;
+		}
 	}
 	
 }
