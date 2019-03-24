@@ -16,6 +16,11 @@ class InsuranceViewController: UIViewController {
        
     }
 	
+	// unwind segue (go back to main View Controller)
+	@IBAction func unwindFromViewController(segue: UIStoryboardSegue) {
+		let source = segue.source as! InsuranceViewController
+	}
+	
 	@IBAction func medicareButtonPressed(_ sender: UIButton) {
 	}
 	@IBAction func medicaidButtonPressed(_ sender: UIButton) {

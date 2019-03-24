@@ -8,6 +8,7 @@
 
 import UIKit
 import AWSAppSync
+//import AWSMobileClient
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

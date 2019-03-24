@@ -25,6 +25,11 @@ class RecieveViewController: UIViewController, UIImagePickerControllerDelegate, 
 
     }
 	
+	// unwind segue (go back to main View Controller)
+	@IBAction func unwindFromViewController(segue: UIStoryboardSegue) {
+		let source = segue.source as! RecieveViewController
+	}
+	
 	func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
 		let selectedImagePrescription = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
 		

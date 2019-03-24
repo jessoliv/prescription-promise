@@ -28,6 +28,7 @@ class DonatePersInfoViewController: UIViewController {
 
     }
 	
+	// unwind segue
 	@IBAction func unwindFromViewController(segue: UIStoryboardSegue) {
 		let source = segue.source as! DonatePersInfoViewController
 	}

@@ -27,6 +27,11 @@ class DonatePrescripViewController: UIViewController, UIImagePickerControllerDel
 
     }
 	
+	// unwind segue (go back to main View Controller)
+	@IBAction func unwindFromViewController(segue: UIStoryboardSegue) {
+		let source = segue.source as! DonatePrescripViewController
+	}
+	
 	func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
 		let selectedImageLabel = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
 		let selectedImageMedicine = info[UIImagePickerController.InfoKey.originalImage] as! UIImage

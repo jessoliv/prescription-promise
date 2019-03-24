@@ -37,6 +37,11 @@ class DrugTakebackViewController: UIViewController {
 
     }
 	
+	// unwind segue (go back to main View Controller)
+	@IBAction func unwindFromViewController(segue: UIStoryboardSegue) {
+		let source = segue.source as! DrugTakebackViewController
+	}
+	
 	func updateUserInterface() {
 		closestDistributionLabel.text = spot.name
 		addressLabel.text = spot.address
