@@ -7,11 +7,16 @@
 //
 
 import UIKit
+import AWSAppSync
 
 class ViewController: UIViewController {
 
-	override func viewDidLoad() {
+    var user: User?
+
+    override func viewDidLoad() {
 		super.viewDidLoad()
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        user = User(awsAppSync: appDelegate.appSyncClient!)
 	}
 
 	@IBAction func donateButtonPressed(_ sender: UIButton) {

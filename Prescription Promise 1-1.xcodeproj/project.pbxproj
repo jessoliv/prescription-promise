@@ -12,7 +12,6 @@
 		0657D38D2236294D003F2086 /* DonateInsuranceInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0657D38C2236294D003F2086 /* DonateInsuranceInfoViewController.swift */; };
 		06735AD022482BB2004D8227 /* WaiverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06735ACF22482BB2004D8227 /* WaiverViewController.swift */; };
 		06A834102243CCA300FFCDF7 /* DrugTakebackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A8340F2243CCA300FFCDF7 /* DrugTakebackViewController.swift */; };
-		06A834122243D1CB00FFCDF7 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A834112243D1CB00FFCDF7 /* Spot.swift */; };
 		06A834142243DB9E00FFCDF7 /* RecieveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A834132243DB9E00FFCDF7 /* RecieveViewController.swift */; };
 		06AE0598221F717600AC5B24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE0597221F717600AC5B24 /* AppDelegate.swift */; };
 		06AE059A221F717600AC5B24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE0599221F717600AC5B24 /* ViewController.swift */; };
@@ -23,6 +22,7 @@
 		06E60DA4223A89B1004D2CE1 /* DonatePrescripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E60DA3223A89B1004D2CE1 /* DonatePrescripViewController.swift */; };
 		06EDA6D52242A4CC00D3FF4E /* SelectInsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EDA6D42242A4CC00D3FF4E /* SelectInsuranceViewController.swift */; };
 		986D60D1223D564D00074ACB /* AWS Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986D60D0223D564D00074ACB /* AWS Functions.swift */; };
+		98DB5984224957A800A6877B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DB5983224957A800A6877B /* User.swift */; };
 		9FDD6F1BA323982306287125 /* Pods_Prescription_Promise_1_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA3991ADFBD89B7561ECA84 /* Pods_Prescription_Promise_1_1.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +33,6 @@
 		0657D38C2236294D003F2086 /* DonateInsuranceInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateInsuranceInfoViewController.swift; sourceTree = "<group>"; };
 		06735ACF22482BB2004D8227 /* WaiverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiverViewController.swift; sourceTree = "<group>"; };
 		06A8340F2243CCA300FFCDF7 /* DrugTakebackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugTakebackViewController.swift; sourceTree = "<group>"; };
-		06A834112243D1CB00FFCDF7 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 		06A834132243DB9E00FFCDF7 /* RecieveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieveViewController.swift; sourceTree = "<group>"; };
 		06AE0594221F717600AC5B24 /* Prescription Promise 1-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prescription Promise 1-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AE0597221F717600AC5B24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		06EDA6D42242A4CC00D3FF4E /* SelectInsuranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectInsuranceViewController.swift; sourceTree = "<group>"; };
 		7607BF0B68745B11677D3A51 /* Pods-Prescription Promise 1-1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prescription Promise 1-1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Prescription Promise 1-1/Pods-Prescription Promise 1-1.release.xcconfig"; sourceTree = "<group>"; };
 		986D60D0223D564D00074ACB /* AWS Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AWS Functions.swift"; sourceTree = "<group>"; };
+		98DB5983224957A800A6877B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ACA3991ADFBD89B7561ECA84 /* Pods_Prescription_Promise_1_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prescription_Promise_1_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,7 +85,7 @@
 			children = (
 				06AE0597221F717600AC5B24 /* AppDelegate.swift */,
 				986D60D0223D564D00074ACB /* AWS Functions.swift */,
-				06A834112243D1CB00FFCDF7 /* Spot.swift */,
+				98DB5983224957A800A6877B /* User.swift */,
 				0657D388223628A2003F2086 /* AboutViewController.swift */,
 				0657D38A223628E0003F2086 /* DonatePersInfoViewController.swift */,
 				06735ACF22482BB2004D8227 /* WaiverViewController.swift */,
@@ -284,10 +284,10 @@
 				0657D38B223628E0003F2086 /* DonatePersInfoViewController.swift in Sources */,
 				06EDA6D52242A4CC00D3FF4E /* SelectInsuranceViewController.swift in Sources */,
 				06E0B59F223AA36E00D15322 /* InsuranceViewController.swift in Sources */,
+				98DB5984224957A800A6877B /* User.swift in Sources */,
 				06AE059A221F717600AC5B24 /* ViewController.swift in Sources */,
 				06AE0598221F717600AC5B24 /* AppDelegate.swift in Sources */,
 				06A834142243DB9E00FFCDF7 /* RecieveViewController.swift in Sources */,
-				06A834122243D1CB00FFCDF7 /* Spot.swift in Sources */,
 				06735AD022482BB2004D8227 /* WaiverViewController.swift in Sources */,
 				06A834102243CCA300FFCDF7 /* DrugTakebackViewController.swift in Sources */,
 				0657D38D2236294D003F2086 /* DonateInsuranceInfoViewController.swift in Sources */,
