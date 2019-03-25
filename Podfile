@@ -8,8 +8,6 @@ target 'Prescription Promise 1-1' do
   # Pods for Prescription Promise 1-1
   pod 'AWSCore', ' ~> 2.8.0'
   pod 'SignatureView', '~> 1.1'
-  pod 'Firebase/Core'
-  pod 'FirebaseUI'
   pod 'GoogleSignIn'
   pod 'AWSAppSync', ' ~> 2.10.0'
   pod 'Stripe'

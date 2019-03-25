@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HQb-Ps-dSW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HQb-Ps-dSW">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -1518,20 +1518,31 @@ Completion of this form meets the requirements of New Hampshire Statutes chapter
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Title" id="Kx5-fl-fYe"/>
+                                    <navigationItem title="Title" id="Kx5-fl-fYe">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="LQp-Pg-vu8">
+                                            <connections>
+                                                <action selector="doneButtonPressed:" destination="Wqp-Wa-cNy" id="0Dc-Sn-fPx"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rI1-3c-uDV" customClass="SignatureView">
+                                <rect key="frame" x="20" y="467" width="374" height="395"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="YV0-jm-xwV"/>
                     </view>
                     <connections>
+                        <outlet property="signatureView" destination="rI1-3c-uDV" id="qQM-NB-zfQ"/>
                         <outlet property="waiverText" destination="eoS-U0-sL5" id="WDQ-8l-B3y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WDP-yn-3H1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="191" y="-411"/>
+            <point key="canvasLocation" x="189.85507246376812" y="-411.16071428571428"/>
         </scene>
         <!--About View Controller-->
         <scene sceneID="Hzb-8D-D9k">
@@ -1637,15 +1648,15 @@ Completion of this form meets the requirements of New Hampshire Statutes chapter
         </scene>
     </scenes>
     <resources>
-        <image name="billing-icon" width="512" height="503"/>
+        <image name="billing-icon" width="491.51998901367188" height="482.8800048828125"/>
         <image name="drugs_banner" width="222" height="100"/>
-        <image name="faq-icon" width="666" height="667"/>
-        <image name="insurance-icon" width="511" height="511"/>
-        <image name="messages-icon" width="1500" height="1500"/>
-        <image name="personal-icon" width="885" height="885"/>
+        <image name="faq-icon" width="159.83999633789062" height="160.08000183105469"/>
+        <image name="insurance-icon" width="122.63999938964844" height="122.63999938964844"/>
+        <image name="messages-icon" width="360" height="360"/>
+        <image name="personal-icon" width="212.39999389648438" height="212.39999389648438"/>
         <image name="prescription-promise" width="375" height="200"/>
         <image name="rules-icon" width="361" height="512"/>
-        <image name="waiver-icon" width="512" height="512"/>
+        <image name="waiver-icon" width="37.600418090820312" height="37.600418090820312"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="6lJ-XK-Xky"/>
